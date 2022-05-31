@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,minimal-ui">
+    <title>Dashor - Responsive Bootstrap 4 Admin Dashboard</title>
+    <meta content="Admin Dashboard" name="description">
+    <meta content="themesdesign" name="author">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="../../static/adminResources/image/favicon.ico">
+    <link href="../../static/adminResources/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../../static/adminResources/css/animate.css" rel="stylesheet" type="text/css">
+    <link href="../../static/adminResources/css/icons.css" rel="stylesheet" type="text/css">
+    <link href="../../static/adminResources/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body class="fixed-left"><!-- Begin page --><!--<div class="accountbg"></div>-->
+<div id="stars"></div>
+<div id="stars2"></div>
+<div class="wrapper-page">
+    <div class="card">
+        <div class="card-body"><h2><div class="text-center"><a href="index.html" class="logo">
+                <img src="../../static/adminResources/image/la2.png" height="150" width="200" alt="logo"/></a>
+        </div></h2>
+        <h3 class="text-center mt-0">Register User</h3><h6
+                class="text-center">Free Signup
+            !</h6>
+        </div>
+            <div class="p-3">
+                <form class="form-horizontal" action="/user/insertRegister" method="post">
+                    <div class="form-group row">
+                        <div class="col-12"><input class="form-control" type="text" required="" name="registerFirstName"
+                                                   placeholder="Enter Firstname"></div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-12"><input class="form-control" type="text" required="" name="registerLastName"
+                                                   placeholder="Enter Lastname"></div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-12">Gender:
+                            Male:-><input type="radio" required="" name="registerGender">
+                            Female:-><input type="radio" required="" name="registerGender">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-12"><input class="form-control" type="text" required="" name="registerContact"
+                                                   placeholder="Enter Contact"></div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-12"><input class="form-control" type="email" name="loginUsername" required=""
+                                                   placeholder="Enter Username">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-12"><input class="form-control" type="text" required="" name="registerAddress"
+                                                   placeholder="Enter Address"></div>
+                    </div>
+
+
+                    <div class="form-group text-center row m-t-20">
+                        <div class="col-12">
+                            <button class="btn btn-danger btn-block waves-effect waves-light" type="submit">Register
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <div class="form-group m-t-10 mb-0 row">
+                    <div class="col-12 m-t-20 text-center"><a href="/" class="text-muted">Already have account?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- jQuery  -->
+<script src="../../static/adminResources/js/jquery.min.js"></script>
+<script src="../../static/adminResources/js/popper.min.js"></script>
+<script src="../../static/adminResources/js/bootstrap.min.js"></script>
+<script src="../../static/adminResources/js/modernizr.min.js"></script>
+<script src="../../static/adminResources/js/detect.js"></script>
+<script src="../../static/adminResources/js/fastclick.js"></script>
+<script src="../../static/adminResources/js/jquery.slimscroll.js"></script>
+<script src="../../static/adminResources/js/jquery.blockUI.js"></script>
+<script src="../../static/adminResources/js/waves.js"></script>
+<script src="../../static/adminResources/js/jquery.nicescroll.js"></script>
+<script src="../../static/adminResources/js/jquery.scrollTo.min.js"></script><!-- App js -->
+<script src="../../static/adminResources/js/app.js"></script>
+</body>
+</html>
